@@ -1,29 +1,44 @@
 {
-  "private": true,
-  "name": "remix-app-template",
-  "description": "",
-  "license": "",
+  "name": "twitch-simple-bio",
+  "version": "0.0.4",
+  "description": "Your very own link-in-bio app.",
+  "main": "index.html",
   "scripts": {
-    "build": "remix build",
-    "dev": "remix dev",
-    "postinstall": "remix setup node",
-    "start": "remix-serve build"
-  },
-  "dependencies": {
-    "@remix-run/react": "^1.0.6",
-    "@remix-run/serve": "^1.0.6",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "remix": "^1.0.6"
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "release": "auto shipit"
   },
   "devDependencies": {
-    "@remix-run/dev": "^1.0.6",
-    "@types/react": "^17.0.24",
-    "@types/react-dom": "^17.0.9",
-    "typescript": "^4.1.2"
+    "@auto-it/all-contributors": "^10.32.2",
+    "@auto-it/first-time-contributor": "^10.32.2",
+    "@auto-it/git-tag": "^10.32.3",
+    "@auto-it/released": "^10.32.2",
+    "@glitchdotcom/vite-plugin-handlebars": "^1.6.2",
+    "auto": "^10.32.2",
+    "vite": "^2.5.0"
   },
+  "browserslist": [
+    ">0.2%",
+    "not dead"
+  ],
   "engines": {
-    "node": ">=14"
+    "node": "14.x"
   },
-  "sideEffects": false
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glitch-in-bio"
+  },
+  "glitch": {
+    "projectType": "generated_static"
+  },
+  "author": "Keith Kurson <keith@glitch.com>",
+  "auto": {
+    "plugins": [
+      "all-contributors",
+      "first-time-contributor",
+      "released",
+      "git-tag"
+    ],
+    "onlyPublishWithReleaseLabel": true
+  }
 }

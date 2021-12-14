@@ -1,0 +1,63 @@
+{
+  "sitename": "kevinsillo",
+  "title": "kevinsillo",
+  "description": "Pinto en realidad virtual y también hago humor",
+  "image": "https://cdn.glitch.me/af0b7aff-f424-428d-8cf7-4ce9c73fe351%2FLogoCuadrado.png?v=1637793097541",
+  "keywords": "links, bio, networks",
+  "favicon": "https://cdn.glitch.me/af0b7aff-f424-428d-8cf7-4ce9c73fe351%2FLogoCuadrado.png?v=1637793097541",
+  "themeColor": "#2B5C71",
+  "url": "default",
+  
+  "twitterimage": "https://cdn.glitch.me/af0b7aff-f424-428d-8cf7-4ce9c73fe351%2FLogoCuadrado.png?v=1637793097541",
+  "twitterusername": "@Quebinaso",
+  "twittersite": "@Quebinaso",
+  "twittercard": "summary",
+
+  "name": "Kevinsillo",
+  "theme": "simple",
+  "avatar": "https://cdn.glitch.me/af0b7aff-f424-428d-8cf7-4ce9c73fe351%2FLogoCuadrado.png?v=1637793097541",
+  "videoBackground": "https://cdn.glitch.me/af0b7aff-f424-428d-8cf7-4ce9c73fe351%2FBackground.mp4?v=1639395525516",
+  "youtubeVideo": "",
+  "twitchAccount": "kevinsillo",
+  "links": [
+    {
+      "url": "https://twitch.tv/kevinsillo",
+      "text": "Twitch",
+      "icon": "simple-icons:twitch"
+    },
+    {
+      "url": "https://www.instagram.com/kevinsillotwitch/",
+      "text": "Instagram",
+      "icon": "akar-icons:instagram-fill"
+    },
+    {
+      "url": "https://www.tiktok.com/@kevintutunpas",
+      "text": "TikTok",
+      "icon": "cib:tiktok"
+    }
+  ],
+  "social": {
+    "glitch": "https://glitch.com/@kevin.illanas",
+    "spotify": "",
+    "substack": "",
+    "dev": "",
+    "facebook": "",
+    "github": "",
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/kevinillanas/",
+    "medium": "",
+    "patreon": "",
+    "pinterest": "",
+    "twitter": "",
+    "youtube": "https://mylast.video/AQUFhvo",
+    "twitch": "",
+    "tiktok": "",
+    "podcast": "",
+    "soundcloud": "",
+    "bandcamp": "",
+    "stackoverflow": "",
+    "kofi": "",
+    "email": ""
+    
+  }
+}

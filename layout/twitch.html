@@ -1,0 +1,23 @@
+<!-- video-wrapper__16-9 -->
+<div class="row justify-content-center twitch">
+  <div id="twitch-embed"></div>
+</div>
+
+<script type="text/javascript">
+  window.addEventListener('load', function () {
+    $.ajax("https://twitch-check.glitch.me/{{settings.twitchAccount}}")
+    .then((data) => {
+      if (data.online) {
+        new Twitch.Embed("twitch-embed", {
+          width: 560,
+          channel: "{{settings.twitchAccount}}",
+          autoplay: true,
+          layout: "video",
+        });
+      }
+    })
+    .catch((err) => {
+      console.log(err)
+    })
+  })
+</script>

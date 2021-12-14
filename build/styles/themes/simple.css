@@ -1,0 +1,80 @@
+@font-face {
+  font-family: HK Grotesk;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+    format("opentype");
+}
+
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+
+:root {
+  --avatar-max-size: 100px;
+  
+  --color-bg: #9480FF;
+  --color-bg-alt: #D7F5EF;
+  --color-bg-alt-hover: #564685;
+  --color-text-main: #AFECE0;
+  --color-primary: #564685;
+  --color-border-link: #AFECE0;
+  --theme-color-title: #FFFFFF;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";
+  --font-family-list: Menlo, Consolas, Monaco, "Lucida Console", monospace;
+}
+
+.wrapper {
+  min-height: var(--wrapper-height);
+  place-items: center;
+  margin: 1rem 2rem 0;
+}
+
+.avatar {
+  margin: 1rem 0 1rem;
+  max-width: var(--avatar-max-size);
+  max-height: var(--avatar-max-size);
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--color-text-main);
+  margin-top: .2rem;
+  margin-bottom: 1.5rem;
+}
+
+#twitch-embed {
+  margin-bottom: ;
+}
+
+ul.link-list {
+  margin-bottom: 1.5rem;
+}
+
+ul.link-list li a span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--color-bg-alt);
+}
+
+ul.link-list li {
+  margin: 0 auto .6rem auto;
+}
+
+ul.link-list li a:link,
+ul.link-list li a:visited {
+  border: 2px solid var(--color-border-link);
+  padding: 0rem 1.5rem;
+}
+
+.network-icon {
+  font-size: 2em;
+  color: var(--color-bg-alt);
+}
+
+.social-profile-icon path:hover {
+  fill: var(--color-bg-alt-hover)
+}

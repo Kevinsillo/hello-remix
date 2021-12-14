@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    {{> head }}
+    
+    <!--- THEMES: in settings.json change 'glitch' to 'gallery', 'menu', or any other theme in the layout/themes folder --->
+    <link rel="stylesheet" type="text/css" href="/styles/themes/{{settings.theme}}.css" />
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="content">
+          
+          <div class="header">
+            {{> avatar }}
+            {{> name }}
+          </div>
+
+          <!--- If write URL Youtube video embed in settings, show it --->
+          {{#if settings.youtubeVideo }}
+            {{> youtube}}
+          {{/if}}
+
+          <!--- If write Twitch username in settings and you are ONLINE, show it --->
+          {{#if settings.twitchAccount }}
+            {{> twitch}}
+          {{/if}}
+
+          <!--- Principal networks --->
+          {{> links }}
+
+          <!--- Secondary networks --->
+          {{> social }}
+          
+          {{#if settings.videoBackground}}
+          <video autoplay muted loop id="video">
+            <source src="{{settings.videoBackground}}" type="video/mp4">
+          </video>
+          {{/if}}
+        
+        </div>
+      </div>
+    </main>  
+  </body>
+</html>

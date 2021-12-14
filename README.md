@@ -1,53 +1,41 @@
-# Welcome to Remix!
+# Glitch in Bio!
 
-- [Remix Docs](https://remix.run/docs)
+Your links, your way. A link-in-bio app you can customize any way you want.
 
-## Development
+IMPORTANT: That is a theme remix of [Glitch in bio](https://glitch.com/~glitch-in-bio) (Original project)
 
-From your terminal:
+### Edit `settings.json` to add your own info and links
 
-```sh
-npm run dev
-```
+Replace the meta info, links and social sites we added for you in `settings.json` and you'll see your changes instantly updated in real time! 
 
-This starts your app in development mode, rebuilding assets on file changes.
+Now, you can show your Twitch stream (only when you are online). Add your account username in `settings.json / twitchAccount`
 
-## Deployment
+For the links icons, you will search icon name in [Iconify](https://icon-sets.iconify.design/)
 
-First, build your app for production:
+### Modify theme
 
-```sh
-npm run build
-```
+To help you make the site your own we've included some themes. In `settings.json` you can enter `simple` (default) or `custom-theme` as the value for `theme`. 
 
-Then run the app in production mode:
+📝  _If you want to see how these themes are made, look in the `public/styles/themes` directory! If you don't have a valid theme entered, the site will default to the styles outlined in `style.css`._
 
-```sh
-npm start
-```
+### ...or create your own!
 
-Now you'll need to pick a host to deploy it to.
+Customize your site by updating `custom-theme.css` inside the `public/styles/themes` folder with CSS to update colors, fonts, or any other style rules. Update your `theme` in `settings.json` to `custom-theme` to have the app use those new rules.
 
-### DIY
+🖼️ Check out examples of other themes the community has created in [this Playlist](https://glitch.com/@glitch/featured-glitch-in-bio-remixes) and [submit your own](https://forms.gle/9WFWjSmhdiEoRgVs5) to share!
 
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
+## What's in this project?
 
-Make sure to deploy the output of `remix build`
+← `README.md`: That’s this file. You can delete it, or keep it handy so you don't lose the instructions.
 
-- `build/`
-- `public/build/`
+← `index.html`: This is the main page template vite uses to build your site. You'll see the handlebars syntax for importing the data you specify in `settings.json` (built into the structures in `layout/`). You'll also find some tips on configuring the page in the HTML comments.
 
-### Using a Template
+← `settings.json`: Settings for your name, links, images, and social media. The `index.html` page includes the data using the structures defined in `layout/`.
 
-When you ran `npx create-remix@latest` there were a few choices for hosting. You can run that again to create a new project, then copy over your `app/` folder to the new project that's pre-configured for your target server.
+← `layout/`: Markup templates — you can edit every line of HTML or never even look at any of it. The data you specify in `settings.json` will be built into the page using the HTML in here using handlebars syntax (e.g. `{{settings.name}}`).
 
-```sh
-cd ..
-# create a new project, and pick a pre-configured host
-npx create-remix@latest
-cd my-new-remix-app
-# remove the new project's app (not the old one!)
-rm -rf app
-# copy your app over
-cp -R ../my-old-remix-app/app app
-```
+← `public/styles/`: Stylesheets for Glitch in Bio, including alternate themes. Change your theme in `settings.json`. You can create a new theme by adding a CSS file to this folder and specifying it using its name in the settings (e.g. `glitch`, `gallery`, `menu`, or whatever yours is called!)
+
+← `public/manifest.json` and `public/sw.js`: These set your site up to function as a Progressive Web App (PWA)–if you add new assets (e.g. stylesheets) you can include them in the list in `sw.js` to cache your site for offline viewing.
+
+← `assets`: Add images here and copy the links into `settings.json` to show them in your site.
