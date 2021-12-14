@@ -1,0 +1,186 @@
+:root {
+  --avatar-max-size: 6rem;
+  
+  --color-bg: #073763;
+  --color-text: #FFFFFF;
+  --color-text-main: #AFECE0;
+  --color-border-link: #AFECE0;
+  
+  --font-family: "Poppins";
+  --font-family-header: "Poppins";
+  --font-family-list: "Poppins";
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.8);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,255,255,0.4);
+}
+
+html {
+  height: 100%;
+  overflow: auto;
+}
+
+body {
+  height: 100%;
+}
+
+#app {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: -webkit-fill-available;
+  min-height: -webkit-fill-available;
+  background: #111111;
+  display: flex;
+  flex-direction: column;
+  touch-action: manipulation;
+  margin: 0;
+}
+
+.content {
+  background: var(--color-bg);
+  align-items: center;
+  padding-bottom: 60px;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  max-width: 700px;
+  margin: 0px auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  z-index: 1;
+}
+
+.avatar {
+  margin: 1rem 0 .5rem;
+  max-width: var(--avatar-max-size);
+  max-height: var(--avatar-max-size);
+  border-radius: 50%;
+}
+
+.header {
+  width: 100%;
+  padding: 35px 20px 30px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 5px;
+  font-size: 17px;
+  line-height: 22px;
+  color: var(--color-text);
+  font-family: 'Poppins';
+  font-weight: 500;
+  letter-spacing: 0px;
+  margin-top: 10px;
+  text-align: center;
+  position: relative;
+}
+
+.description {
+  font-size: 13px;
+  line-height: 19px;
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-weight: 500;
+  letter-spacing: 0px;
+  width: 75%;
+  max-width: 490px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.twitch {
+  width: 85%;
+  padding: 0 14px;
+}
+
+#twitch-embed {
+  width: 100%;
+}
+
+#twitch-embed iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 0.5rem;
+  border: 2px solid var(--color-border-link);
+}
+
+.links {
+  width: 100%;
+  padding: 0px 16px;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+ul.link-list {
+  width: 85%;
+  margin-bottom: 1.5rem;
+}
+
+ul.link-list li {
+  margin: 0 auto .6rem auto;
+}
+
+ul.link-list li a:link,
+ul.link-list li a:visited {
+  min-height: 3.8rem;
+  border: 2px solid var(--color-border-link);
+  background-color: rgba(18, 33, 31, 0.5);
+  padding: 0rem 1.5rem;
+  border-radius: 0.5rem;
+}
+
+ul.link-list li a:hover {
+  background-color: rgba(18, 33, 31, 1); 
+}
+
+ul.link-list li a span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--color-text);
+  font-family: 'Poppins';
+  font-weight: 300;
+}
+
+.network-icon {
+  font-size: 2em;
+  color: var(--color-text);
+}
+
+#video {
+  width: 100%;
+  max-width: 700px;
+  min-height: 100%;
+  position: fixed;    
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); 
+  object-fit: cover;
+  z-index: -1;
+}
