@@ -1,7 +1,7 @@
 {
-  "name": "twitch-simple-bio",
-  "version": "0.0.4",
-  "description": "Your very own link-in-bio app.",
+  "name": "personal-portfolio",
+  "version": "0.0.1",
+  "description": "Your personal portfolio.",
   "main": "index.html",
   "scripts": {
     "start": "vite",
@@ -31,7 +31,7 @@
   "glitch": {
     "projectType": "generated_static"
   },
-  "author": "Keith Kurson <keith@glitch.com>",
+  "author": "Kevin Illanas",
   "auto": {
     "plugins": [
       "all-contributors",

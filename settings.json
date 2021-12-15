@@ -1,63 +1,30 @@
 {
-  "sitename": "kevinsillo",
-  "title": "kevinsillo",
-  "description": "Pinto en realidad virtual y también hago humor",
-  "image": "https://cdn.glitch.me/af0b7aff-f424-428d-8cf7-4ce9c73fe351%2FLogoCuadrado.png?v=1637793097541",
-  "keywords": "links, bio, networks",
-  "favicon": "https://cdn.glitch.me/af0b7aff-f424-428d-8cf7-4ce9c73fe351%2FLogoCuadrado.png?v=1637793097541",
-  "themeColor": "#2B5C71",
+  "sitename": "Prueba",
+  "title": "Prueba",
+  "description": "Prueba",
+  "image": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/4F8WPWnpQv.png?v=1639560470539",
+  "keywords": "aaa, aa",
+  "favicon": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/4F8WPWnpQv.png?v=1639560470539",
+  "themeColor": "#EEE",
   "url": "default",
   
-  "twitterimage": "https://cdn.glitch.me/af0b7aff-f424-428d-8cf7-4ce9c73fe351%2FLogoCuadrado.png?v=1637793097541",
+  "twitterimage": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/4F8WPWnpQv.png?v=1639560470539",
   "twitterusername": "@Quebinaso",
   "twittersite": "@Quebinaso",
   "twittercard": "summary",
 
-  "name": "Kevinsillo",
-  "theme": "simple",
-  "avatar": "https://cdn.glitch.me/af0b7aff-f424-428d-8cf7-4ce9c73fe351%2FLogoCuadrado.png?v=1637793097541",
-  "videoBackground": "https://cdn.glitch.me/af0b7aff-f424-428d-8cf7-4ce9c73fe351%2FBackground.mp4?v=1639395525516",
-  "youtubeVideo": "",
-  "twitchAccount": "kevinsillo",
-  "links": [
+  "gallery": [
     {
-      "url": "https://twitch.tv/kevinsillo",
       "text": "Twitch",
-      "icon": "simple-icons:twitch"
+      "image": "simple-icons:twitch"
     },
     {
-      "url": "https://www.instagram.com/kevinsillotwitch/",
-      "text": "Instagram",
-      "icon": "akar-icons:instagram-fill"
+      "text": "Twitch",
+      "image": "simple-icons:twitch"
     },
     {
-      "url": "https://www.tiktok.com/@kevintutunpas",
-      "text": "TikTok",
-      "icon": "cib:tiktok"
+      "text": "Twitch",
+      "image": "simple-icons:twitch"
     }
-  ],
-  "social": {
-    "glitch": "https://glitch.com/@kevin.illanas",
-    "spotify": "",
-    "substack": "",
-    "dev": "",
-    "facebook": "",
-    "github": "",
-    "instagram": "",
-    "linkedin": "https://www.linkedin.com/in/kevinillanas/",
-    "medium": "",
-    "patreon": "",
-    "pinterest": "",
-    "twitter": "",
-    "youtube": "https://mylast.video/AQUFhvo",
-    "twitch": "",
-    "tiktok": "",
-    "podcast": "",
-    "soundcloud": "",
-    "bandcamp": "",
-    "stackoverflow": "",
-    "kofi": "",
-    "email": ""
-    
-  }
+  ]
 }

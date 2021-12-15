@@ -9,7 +9,7 @@ export default defineConfig(async ({ command, mode }) => {
     plugins: [
       handlebars({
         partialDirectory: resolve(__dirname, "layout"),
-        settingsFile: 'settings.json',
+        settingsFile: "settings.json",
         helpers: {
           hostasclass: value => new URL(value).hostname.replace(/\./g, "_")
         },
@@ -21,7 +21,7 @@ export default defineConfig(async ({ command, mode }) => {
       outDir: "build"
     },
     optimizeDeps: {
-      exclude: ['./settings.json']
+      exclude: ["./settings.json"]
     },
     server: {
       strictPort: true,
