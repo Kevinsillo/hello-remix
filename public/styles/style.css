@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Mantten';
+  src: url('https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/Mantten.ttf?v=1639523040813')
+    format('truetype');
+}
+
+:root {
+  --font-splash: 'Mantten';
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #EEEEEE;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: var(--font-splash);
+  rotate: -10deg;
+  -webkit-transform: rotate(-8deg);
+}
+
+.splash {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: #EEEEEE;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo h1 {
+  display: none;
+}
