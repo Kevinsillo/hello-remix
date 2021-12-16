@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio",
+  "short_name": "Portfolio",
+  "description": "Pinto en realidad virtual y también hago humor",
+  "icons": [
+    {
+      "sizes": "800x800",
+      "type": "image/png",
+      "src": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/3ac38068-7bfa-491b-ac31-385f9948e011.image.png?v=1639652973637",
+      "purpose": "any"
+    },
+    {
+      "sizes": "180x180",
+      "type": "image/png",
+      "src": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/3ac38068-7bfa-491b-ac31-385f9948e011.image.png?v=1639652973637",
+      "purpose": "maskable"
+    }
+  ],
+  "display": "standalone",
+  "background_color": "#EEEEEE",
+  "theme_color": "#EEEEEE",
+  "start_url": "/"
+}

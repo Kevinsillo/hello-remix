@@ -2,16 +2,174 @@
 <html lang="en">
   <head>
    
-    {{> head }}
+    <!-- SEO Title -->
+    <title>Portfolio</title>
     
+    <!-- Web configuratión -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Meta tags for SEO -->
+    <meta name="author" content="Kevin Illanas" />
+    <meta name="description" content="Portfolio for my designs">
+    <meta name="keywords" content="portfolio, design, images, gallery, profile" />
+    <meta name="theme-color" content="#EEEEEE"/>
+    <link rel="icon" href="https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/547be42e-94e1-49f2-89db-aad123a9cb65.image.png?v&#x3D;1639653068061" />
+    <link rel="canonical" href="https://glitch.com/">
+    <link rel="apple-touch-icon" href="https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/547be42e-94e1-49f2-89db-aad123a9cb65.image.png?v&#x3D;1639653068061">
+    
+    <!-- Meta tags for Twitter. Show result in https://cards-dev.twitter.com/validator -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" value="@Quebinaso">
+    <meta name="twitter:creator" content="@Quebinaso" />
+    <meta name="twitter:title" value="Portfolio">
+    <meta name="twitter:description" content="Portfolio for my designs">
+    <meta name="twitter:image" content="https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/d75edb55-ebf3-4c0c-b553-09b1a2b3975f.image.png?v&#x3D;1639576252942">
+    
+    <!-- Meta tags for generic social sharing -->
+    <meta property="og:site_name" content="Portfolio"/>
+    <meta property="og:title" content="Portfolio">
+    <meta property="og:description" content="Portfolio for my designs">
+    <meta property="og:type" content="article">
+    <meta property="og:image" itemprop="image" content="https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/d75edb55-ebf3-4c0c-b553-09b1a2b3975f.image.png?v&#x3D;1639576252942">
+    <meta property="og:url" content="https://glitch.com/">
+    
+    <!-- Import stylesheet -->
+    <link rel="preload stylesheet" as="style" href="/styles/fontawesome.all.css" />
+    <link rel="preload stylesheet" as="style" href="/styles/bootstrap.css" />
+    <link rel="stylesheet" href="/styles/style.css" />
+    
+    <!-- WPA Config -->
+    <link rel="manifest" href="manifest.json">
+    <script>
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }
+    </script>
+    
+    <!-- Import javascript -->
+    <script src="/scripts/jquery.js" defer></script>
+    <script src="/scripts/bootstrap.bundle.js" defer></script>
+    <script src="/data.json"></script>
+    <script src="/scripts/script.js" defer></script>    
+    <script type="module" crossorigin src="/assets/index.1b54bc75.js"></script>
   </head>
   <body>
     
-    <div class="splash">
-      <div class="logo">
-        <h1>Portfolio</h1>
+    
+    <div class="main">
+      <div class="header">
+        <div class="title">
+          <h1>Portfolio</h1>
+        </div>
+        <div class="navbar">
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="pills-gallery-tab" data-toggle="pill" href="#pills-gallery" role="tab" aria-controls="pills-gallery" aria-selected="true">Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>    
+      <div class="dinamic-content">
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-gallery" role="tabpanel" aria-labelledby="pills-gallery-tab">
+            <style>
+              .image:hover {
+                filter: grayscale(80%);;
+              }
+            </style>
+            
+            <div class="gallery">
+              <div id="cards" class="cards">
+            <!--     
+                  <div class="card-item">
+                    <div class="image" style="background-image: url(https://picsum.photos/id/65/900/900.jpg)">
+                      <span>19 / 04 / 2020</span>
+                    </div>
+                  </div>
+                
+                  <div class="card-item">
+                    <div class="image" style="background-image: url(https://picsum.photos/id/881/900/900.jpg)">
+                      <span>24 / 04 / 2020</span>
+                    </div>
+                  </div>
+                
+                  <div class="card-item">
+                    <div class="image" style="background-image: url(https://picsum.photos/id/248/900/900.jpg)">
+                      <span>03 / 05 / 2020</span>
+                    </div>
+                  </div>
+                
+                  <div class="card-item">
+                    <div class="image" style="background-image: url(https://picsum.photos/id/844/900/900.jpg)">
+                      <span>17 / 05 / 2020</span>
+                    </div>
+                  </div>
+                
+                  <div class="card-item">
+                    <div class="image" style="background-image: url(https://picsum.photos/id/534/900/900.jpg)">
+                      <span>13 / 06 / 2020</span>
+                    </div>
+                  </div>
+                
+                  <div class="card-item">
+                    <div class="image" style="background-image: url(https://picsum.photos/id/664/900/900.jpg)">
+                      <span>20 / 06 / 2020</span>
+                    </div>
+                  </div>
+                
+                  <div class="card-item">
+                    <div class="image" style="background-image: url(https://picsum.photos/id/176/900/900.jpg)">
+                      <span>01 / 07 / 2020</span>
+                    </div>
+                  </div>
+                
+                  <div class="card-item">
+                    <div class="image" style="background-image: url(https://picsum.photos/id/73/900/900.jpg)">
+                      <span>03 / 01 / 2021</span>
+                    </div>
+                  </div>
+                
+                  <div class="card-item">
+                    <div class="image" style="background-image: url(https://picsum.photos/id/806/900/900.jpg)">
+                      <span>16 / 02 / 2021</span>
+                    </div>
+                  </div>
+                
+                  <div class="card-item">
+                    <div class="image" style="background-image: url(https://picsum.photos/id/943/900/900.jpg)">
+                      <span>23 / 04 / 2021</span>
+                    </div>
+                  </div>
+                 -->
+              </div>
+            </div>    </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="profile">
+              Soy el perfil
+            </div>    </div>
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="contact">
+              Soy el contactar
+            </div>    </div>
+        </div>
       </div>
-    </div>
+      <div class="footer">
+        
+      </div>    </div>
     
   </body>
 </html>

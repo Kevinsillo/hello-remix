@@ -12,9 +12,12 @@ self.addEventListener("install", e => {
       // Cache the homepage and stylesheets - add any assets you want to cache!
       return cache.addAll([
         "/", 
-        "/styles/style.css",
-        "/styles/themes/simple.css",
-        "/styles/themes/custom-theme.css"
+        "/public/styles/style.css",
+        "/public/styles/bootstrap.css",
+        "/public/styles/fontawesome.all.css",
+        "/public/scripts/bootstrap.bundle.js",
+        "/public/scripts/jquery.js",
+        "/public/scripts/script.js",
       ]);
     })
   );
