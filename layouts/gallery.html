@@ -1,0 +1,37 @@
+<style>
+  .image:hover {
+    filter: grayscale(80%);;
+  }
+</style>
+
+<div class="gallery">
+  <div class="cards">
+    {{#each settings.gallery}}
+      <a class="card-item" data-toggle="modal" data-target="#modal-{{@index}}">
+        <div class="image" style="background-image: url({{this.image}})">
+          <span>{{this.date}}</span>
+        </div>
+      </a>
+      <div class="modal fade in" id="modal-{{@index}}" tabindex="-1" aria-labelledby="ModalCard{{@index}}" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="data-modal">
+                <div class="container">
+                  <div class="close" data-dismiss="modal"><i class="fas fa-times"></i></div>
+                  <div class="row align-items-center">
+                    <div class="col-lg-6 col-12"><img class="image-modal" src="{{this.image}}" /></div>
+                    <div class="col-lg-6 col-12 paragraph">
+                      <div class="title-modal p-title">{{this.title}}</div>
+                      <div class="text-modal p-description">{{this.description}}</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+</div>

@@ -1,0 +1,83 @@
+{
+  "sitename": "Portfolio",
+  "author": "Portfolio",
+  "title": "Portfolio",
+  "description": "Portfolio for my designs",
+  "image": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/d75edb55-ebf3-4c0c-b553-09b1a2b3975f.image.png?v=1639576252942",
+  "keywords": "portfolio, design, images, gallery, profile",
+  "favicon": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/547be42e-94e1-49f2-89db-aad123a9cb65.image.png?v=1639653068061",
+  "themeColor": "#EEEEEE",
+  "url": "https://glitch.com/",
+  
+  "twitterimage": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/d75edb55-ebf3-4c0c-b553-09b1a2b3975f.image.png?v=1639576252942",
+  "twitterusername": "@Quebinaso",
+  "twittersite": "@Quebinaso",
+  "twittercard": "summary",
+  
+  "splash": true,
+  "aboutme": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris porttitor bibendum augue et tempus. Nunc consequat porta orci, vel molestie massa varius a. Nulla id tempus lorem, vel pulvinar ipsum. Vivamus sodales ullamcorper libero, id efficitur purus. Suspendisse potenti. Proin non rutrum sem, et rutrum risus.",
+  "profilephoto": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/a40b0dfd-e1ce-4451-920f-658490675347.image.png?v=1639684276692",
+  "contactphoto": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/c756c2bc-bea2-457b-975c-3df002bcf629.image.png?v=1639990325734",
+  "gallery": [
+    {
+      "date": "19 / 04 / 2020",
+      "image": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/65-900x900.jpg?v=1639839646394",
+      "title": "Puesta de sol",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis pretium mi, nec rhoncus nibh pharetra non. Suspendisse non varius risus. Nunc quis erat vitae odio egestas bibendum et non orci. Integer vitae vestibulum neque. Etiam vestibulum viverra mauris quis varius. Cras placerat congue odio, ut tristique magna scelerisque sit amet."
+    },
+    {
+      "date": "24 / 04 / 2020",
+      "image": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/881-900x900.jpg?v=1639885492830",
+      "title": "Medusa",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis pretium mi, nec rhoncus nibh pharetra non. Suspendisse non varius risus. Nunc quis erat vitae odio egestas bibendum et non orci. Integer vitae vestibulum neque. Etiam vestibulum viverra mauris quis varius. Cras placerat congue odio, ut tristique magna scelerisque sit amet."
+    },
+    {
+      "date": "03 / 05 / 2020",
+      "image": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/248-900x900.jpg?v=1639885505594",
+      "title": "Cactus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis pretium mi, nec rhoncus nibh pharetra non. Suspendisse non varius risus. Nunc quis erat vitae odio egestas bibendum et non orci. Integer vitae vestibulum neque. Etiam vestibulum viverra mauris quis varius. Cras placerat congue odio, ut tristique magna scelerisque sit amet."
+    },
+    {
+      "date": "17 / 05 / 2020",
+      "image": "https://cdn.glitch.me/23e756e8-5677-4c27-8f26-0bf5be728800/844-900x900.jpg?v=1639885545358",
+      "title": "Bambú",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis pretium mi, nec rhoncus nibh pharetra non. Suspendisse non varius risus. Nunc quis erat vitae odio egestas bibendum et non orci. Integer vitae vestibulum neque. Etiam vestibulum viverra mauris quis varius. Cras placerat congue odio, ut tristique magna scelerisque sit amet."
+    },
+    {
+      "date": "13 / 06 / 2020",
+      "image": "https://picsum.photos/id/534/900/900.jpg",
+      "title": "Estudios",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis pretium mi, nec rhoncus nibh pharetra non. Suspendisse non varius risus. Nunc quis erat vitae odio egestas bibendum et non orci. Integer vitae vestibulum neque. Etiam vestibulum viverra mauris quis varius. Cras placerat congue odio, ut tristique magna scelerisque sit amet."
+    },
+    {
+      "date": "20 / 06 / 2020",
+      "image": "https://picsum.photos/id/664/900/900.jpg",
+      "title": "Montañas nevadas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis pretium mi, nec rhoncus nibh pharetra non. Suspendisse non varius risus. Nunc quis erat vitae odio egestas bibendum et non orci. Integer vitae vestibulum neque. Etiam vestibulum viverra mauris quis varius. Cras placerat congue odio, ut tristique magna scelerisque sit amet."
+    },
+    {
+      "date": "01 / 07 / 2020",
+      "image": "https://picsum.photos/id/176/900/900.jpg",
+      "title": "Paisaje marino",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis pretium mi, nec rhoncus nibh pharetra non. Suspendisse non varius risus. Nunc quis erat vitae odio egestas bibendum et non orci. Integer vitae vestibulum neque. Etiam vestibulum viverra mauris quis varius. Cras placerat congue odio, ut tristique magna scelerisque sit amet."
+    },
+    {
+      "date": "03 / 01 / 2021",
+      "image": "https://picsum.photos/id/73/900/900.jpg",
+      "title": "Beisbol",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis pretium mi, nec rhoncus nibh pharetra non. Suspendisse non varius risus. Nunc quis erat vitae odio egestas bibendum et non orci. Integer vitae vestibulum neque. Etiam vestibulum viverra mauris quis varius. Cras placerat congue odio, ut tristique magna scelerisque sit amet."
+    },
+    {
+      "date": "16 / 02 / 2021",
+      "image": "https://picsum.photos/id/806/900/900.jpg",
+      "title": "Montañas",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis pretium mi, nec rhoncus nibh pharetra non. Suspendisse non varius risus. Nunc quis erat vitae odio egestas bibendum et non orci. Integer vitae vestibulum neque. Etiam vestibulum viverra mauris quis varius. Cras placerat congue odio, ut tristique magna scelerisque sit amet."
+    },
+    {
+      "date": "23 / 04 / 2021",
+      "image": "https://picsum.photos/id/943/900/900.jpg",
+      "title": "Reno",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis pretium mi, nec rhoncus nibh pharetra non. Suspendisse non varius risus. Nunc quis erat vitae odio egestas bibendum et non orci. Integer vitae vestibulum neque. Etiam vestibulum viverra mauris quis varius. Cras placerat congue odio, ut tristique magna scelerisque sit amet."
+    }
+  ]
+}
